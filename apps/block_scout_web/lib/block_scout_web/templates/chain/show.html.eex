@@ -148,7 +148,7 @@
 </div>
 <section class="container">
   <%= render BlockScoutWeb.Advertisement.BannersAdView, "_banner_728.html", conn: @conn %>
-
+  <img src="/images/ads.png" class="img-fluid w-100 mb-2" />
   <div class="row">
     <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="card card-chain-blocks js-ad-dependant-mb-3">
