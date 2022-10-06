@@ -150,7 +150,7 @@
   <%= render BlockScoutWeb.Advertisement.BannersAdView, "_banner_728.html", conn: @conn %>
 
   <div class="row">
-    <div class="col-lg-12 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-md-6 col-sm-12">
         <div class="card card-chain-blocks js-ad-dependant-mb-3">
           <div class="card-body">
             <%= link(gettext("View All Blocks"), to: blocks_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
@@ -209,7 +209,8 @@
           </div>
         </div>
     </div>
-    <div class="col-lg-12 col-md-6 col-sm-12">
+    <div class="col-lg-6 col-md-6 col-sm-12">
+
       <div class="card card-chain-transactions">
         <div class="card-body">
           <%= link(gettext("View All Transactions"), to: transaction_path(BlockScoutWeb.Endpoint, :index), class: "btn-line float-right") %>
