@@ -53,3 +53,5 @@ screenshots/
 *.iml
 
 .vscode
+docker-compose/envs/common-blockscout.env
+docker-compose/redis-data/dump.rdb
