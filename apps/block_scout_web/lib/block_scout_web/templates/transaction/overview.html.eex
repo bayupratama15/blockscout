@@ -187,7 +187,7 @@
                   <% :unknown -> %>
                     <% nil %>
                   <% {:ok, interval_string} -> %>
-                    | Confirmed within <= 1 seconds
+                    | Confirmed within <= 1.0 seconds
                 <% end %>
               </dd>
             </dl>
